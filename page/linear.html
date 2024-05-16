@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linear Equations Solver</title>
+    <link rel="stylesheet" href="linear.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Linear Equations Solver</h1>
+        <div class="input-container">
+            <label for="a">Enter coefficient A:</label>
+            <input type="text" id="a" placeholder="A">
+            <label for="b">Enter coefficient B:</label>
+            <input type="text" id="b" placeholder="B">
+            <label for="c">Enter coefficient C:</label>
+            <input type="text" id="c" placeholder="C">
+            <label for="d">Enter coefficient D:</label>
+            <input type="text" id="d" placeholder="D">
+            <label for="e">Enter coefficient E:</label>
+            <input type="text" id="e" placeholder="E">
+            <label for="f">Enter coefficient F:</label>
+            <input type="text" id="f" placeholder="F">
+            <button onclick="solveEquations()">Solve</button>
+        </div>
+        <div id="steps"></div>
+        <div id="solution"></div>
+    </div>
+    <script src="linear.js"></script>
+</body>
+</html>
